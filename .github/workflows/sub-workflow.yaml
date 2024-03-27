@@ -9,8 +9,8 @@ on:
 jobs:
   my-tests:
 
-    runs-on: [self-hosted]
-
+    runs-on:
+      labels: ip-172-31-25-162
     steps:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
       with:
